@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"😎": "<-------->"}
+    return {"element api": "hi!"}
 
 @app.get("/symbols/")
 def symbols():
