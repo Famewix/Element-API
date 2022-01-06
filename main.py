@@ -13,6 +13,12 @@ def symbols():
         "symbols": utils.get_symbols()
     }
 
+@app.get("/elements/")
+def symbols():
+    return {
+        "elements": utils.get_elements()
+    }
+
 @app.get("/e/{element_symbol}")
 def element(element_symbol: str):
     data = utils.get_element(element_symbol)
