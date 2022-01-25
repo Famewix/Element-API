@@ -4,20 +4,20 @@ The data that this api returns is taken from https://gist.github.com/GoodmanScie
 
 Installation
 =============
-```sh
-$ git clone https://github.com/Famewix/Element-API.git
-$ cd Element-API
-$ pip install -r requirements.txt
+```
+git clone https://github.com/Famewix/Element-API.git
+cd Element-API
+pip install -r requirements.txt
 ```
 Run
 =============
 I haven't hosted this api yet, so for now you have to host it by youself.
-```sh
-$ uvicorn main:app --host IP --port 8000
+```
+uvicorn main:app --host IP --port 8000
 ```
 or in Development mode
-```sh
-$ uvicorn main:app --reload
+```
+uvicorn main:app --reload
 ```
 
 Usage
